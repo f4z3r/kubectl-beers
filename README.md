@@ -30,7 +30,7 @@ cp target/release/kubectl-beers $HOME/.local/bin/
 ## Usage
 
 ```
-kubectl-beers 0.1.0
+kubectl-beers 0.1.1
 Jakob B. <beckmann_jakob@hotmail.fr>
 Gets you beer!
 

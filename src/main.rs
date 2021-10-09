@@ -26,8 +26,6 @@ fn main() {
 
 fn print_beers(count: u8, prefix: Option<&str>) {
     let real_prefix = prefix.unwrap_or("");
-    let beers = (0..count).map(|_| {
-        BEER.into()
-    }).collect::<Vec<String>>().join(" ");
+    let beers = BEER.repeat(count as usize);
     println!("{}{}", real_prefix, beers);
 }
