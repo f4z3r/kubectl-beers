@@ -1,5 +1,5 @@
 name: kubectl-beers
-version: "0.1.1"
+version: "0.1.2"
 author: Jakob B. <beckmann_jakob@hotmail.fr>
 about: Gets you beer!
 args:

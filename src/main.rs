@@ -11,7 +11,7 @@ fn main() {
 
     let ns_opt = matches.value_of("namespace");
     let prefix = ns_opt.map(|ns| {
-        ["Running in namespace ", ns, ":\n"].join("")
+        format!("Running in namespace {}:\n", ns)
     });
 
     let mut beer_count = DEFAULT_BEER_COUNT;
