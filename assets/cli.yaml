@@ -1,0 +1,24 @@
+name: kubectl-beers
+version: "0.1.0"
+author: Jakob B. <beckmann_jakob@hotmail.fr>
+about: Gets you beer!
+args:
+  - namespace:
+      short: n
+      long: namespace
+      value_name: NAMESPACE
+      help: It namespaces you beer???
+      takes_value: true
+  - all_namespaces:
+      short: A
+      long: all-namespaces
+      help: It ... well it does nothing really...
+      takes_value: false
+subcommands:
+  - get:
+      about: Gets you as much beer as you want.
+      args:
+      - COUNT:
+          help: The number of beers you want.
+          required: true
+          index: 1
