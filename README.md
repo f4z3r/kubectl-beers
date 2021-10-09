@@ -2,6 +2,11 @@
 
 Insanely useful tool to get beer using `kubectl`.
 
+> Note: this uses the codepoint `f0fc` for the beer icon. This is taken from [Nerdfonts][nerdf].
+> Make sure to install such a font if the output is broken.
+
+[nerdf]: https://www.nerdfonts.com/#home
+
 ## Installation
 
 Just download the binary from the release page. And put it somewhere in your `PATH` (and rename it
