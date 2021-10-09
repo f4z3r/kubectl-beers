@@ -4,12 +4,22 @@ Insanely useful tool to get beer using `kubectl`.
 
 ## Installation
 
-Just download the binary from the release page. And put it somewhere in your `PATH`.
+Just download the binary from the release page. And put it somewhere in your `PATH` (and rename it
+to `kubectl-beers`).
 
 Check that it works using:
 
 ```bash
 kubectl beers -h
+```
+
+### From Source
+
+```bash
+git clone https://github.com/f4z3r/kubectl-beers.git
+cd kubectl-beers
+cargo build --release
+cp target/release/kubectl-beers $HOME/.local/bin/
 ```
 
 ## Usage
