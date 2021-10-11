@@ -30,7 +30,7 @@ cp target/release/kubectl-beers $HOME/.local/bin/
 ## Usage
 
 ```
-kubectl-beers 0.1.2
+kubectl-beers 0.1.3
 Jakob B. <beckmann_jakob@hotmail.fr>
 Gets you beer!
 
@@ -39,6 +39,8 @@ USAGE:
 
 FLAGS:
     -A, --all-namespaces    It ... well it does nothing really...
+    -a, --ascii             Uses ASCII art instead of Unicode.
+    -b, --bottled           Gives you bottled beer.
     -h, --help              Prints help information
     -V, --version           Prints version information
 

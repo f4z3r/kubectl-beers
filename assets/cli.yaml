@@ -1,5 +1,5 @@
 name: kubectl-beers
-version: "0.1.2"
+version: "0.1.3"
 author: Jakob B. <beckmann_jakob@hotmail.fr>
 about: Gets you beer!
 args:
@@ -13,6 +13,16 @@ args:
       short: A
       long: all-namespaces
       help: It ... well it does nothing really...
+      takes_value: false
+  - bottled:
+      short: b
+      long: bottled
+      help: Gives you bottled beer.
+      takes_value: false
+  - ascii:
+      short: a
+      long: ascii
+      help: Uses ASCII art instead of Unicode.
       takes_value: false
 subcommands:
   - get:
