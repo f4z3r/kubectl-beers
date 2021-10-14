@@ -51,3 +51,27 @@ SUBCOMMANDS:
     get     Gets you as much beer as you want.
     help    Prints this message or the help of the given subcommand(s)
 ```
+
+### Examples
+
+Just get a beer:
+
+![kubectl beers][kubectl-beers]
+
+You prefer bottles? No problemo:
+
+![kubectl beers --bottled][kubectl-beers-bottled]
+
+You need ASCII because you live in 1997 and have no Unicode support?
+
+![kubectl beers --ascii get 2][kubectl-beers-ascii-get-2]
+
+If you are having a party and need more than 2 or 3 beers, we also got you covered:
+
+![kubectl beers get 15 ][kubectl-beers-get-15]
+
+
+[kubectl-beers]: ./assets/images/kubectl-beers.jpg
+[kubectl-beers-bottled]: ./assets/images/kubectl-beers-bottled.jpg
+[kubectl-beers-ascii-get-2]: ./assets/images/kubectl-beers-ascii-get-2.jpg
+[kubectl-beers-get-15]: ./assets/images/kubectl-beers-get-15.jpg
