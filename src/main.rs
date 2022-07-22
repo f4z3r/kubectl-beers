@@ -62,7 +62,7 @@ fn main() {
     });
 
     let mut beer_count = DEFAULT_BEER_COUNT;
-    if let ("get", Some(opts)) = matches.subcommand() {
+    if let Some(("get", opts)) = matches.subcommand() {
         beer_count = opts.value_of("COUNT")
             .unwrap_or(&DEFAULT_BEER_COUNT.to_string())
             .parse::<u8>()
